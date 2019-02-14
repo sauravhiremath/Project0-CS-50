@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'airregular';
+    src: url('./fonts/air_____-webfont.woff2') format('woff2'),
+         url('./fonts/air_____-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header {
+    font-family: 'airregular'; 
+    font-weight: normal;
+    color: #00796b;
+    font-size: 600%;
+    text-align: center;
+}
