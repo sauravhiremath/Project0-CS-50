@@ -7,10 +7,37 @@
 
 }
 
+@media screen and (orientation: portrait){
+    .back-flow{
+        width:100%;
+    }
+
+    header {
+        text-align: justify;
+        font-size: 50pt;
+        }
+
+}
+
+@media screen and (orientation: landscape){
+    .back-flow{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 55%
+    }
+
+    header {
+        font-size: 60pt;
+    }
+}
 header {
     font-family: 'airregular'; 
     font-weight: normal;
     color: #00796b;
-    font-size: 600%;
+    /* font-size: 600%; */
     text-align: center;
 }
+
+/* .back-flow {
+    border-radius: 40px;
+} */
