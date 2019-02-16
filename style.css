@@ -34,7 +34,7 @@
 }
 
 header {
-    font-family: 'airregular'; 
+    font-family: 'Dosis', sans-serif; 
     font-weight: normal;
     color: rgb(105, 51, 7);
     text-align: center;
@@ -48,6 +48,7 @@ section {
 
 section::after {
     position: absolute;
+    pointer-events:none;
     bottom: 0;
     left: 0;
     content: '';
@@ -62,7 +63,7 @@ a span {
     left: 80%;
     width: 50px;
     height: 50px;
-    z-index: 2;
+    z-index: 3;
     border-left: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-width: 2px;
